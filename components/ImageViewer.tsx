@@ -6,7 +6,7 @@ type Props ={
 }
 
 export default function ImageViewer({imgSource}: Props){
-    return <Image source={imgSource} />;
+    return <Image source={imgSource} style={styles.image} />;
 }
 
 const styles = StyleSheet.create({
